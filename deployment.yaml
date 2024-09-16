@@ -15,7 +15,7 @@ template:
    spec:
       containers:
          - name: expressjs-backend
-      image: <acr-name>.azurecr.io/fluxexamples/express-server:flux
+      image: asestudent1containerregistry.azurecr.io/fluxexamples/express-server:flux
       ports:
          - containerPort: 4000
       imagePullSecrets:
